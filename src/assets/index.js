@@ -3,9 +3,9 @@ import aboutus from './aboutus.png'
 import hero from './hero.png'
 import thumbnail from './thumbnail.png'
 import register from './register.png'
-import global from './global.png'
-import expertise from './expertise.png'
-import empowering from './empowering.png'
+import global from './global.svg'
+import expertise from './expertise.svg'
+import empowering from './empowering.svg'
 
 export {
    logo,

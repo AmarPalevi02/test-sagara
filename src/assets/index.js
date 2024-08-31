@@ -11,6 +11,9 @@ import cursor from './cursor.svg'
 import payment from './payment.svg'
 import list from './list.svg'
 import graduation from './graduation.svg'
+import window from './window.svg'
+import copy from './copy.svg'
+import users from './users.svg'
 
 export {
    logo,
@@ -25,5 +28,8 @@ export {
    cursor,
    payment,
    list,
-   graduation
+   graduation,
+   window,
+   copy,
+   users
 }

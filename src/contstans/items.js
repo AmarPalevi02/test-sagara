@@ -1,4 +1,4 @@
-import { global, empowering, expertise } from "../assets"
+import { global, empowering, expertise, users, window, copy } from "../assets"
 import { HiMiniUserGroup } from "react-icons/hi2";
 import { HiCursorClick } from "react-icons/hi";
 import { RiBook2Fill } from "react-icons/ri";
@@ -53,5 +53,33 @@ export const certifications = [
       title: 'Get the certificate',
       icon: <FaGraduationCap />,
       des: 'Upon successful completion of the exam, receive your certification digitally, instantly validating your skills and expertise in the chosen IT field.'
+   }
+]
+
+
+export const listCertifications = [
+   { list: 'Front END Developer' },
+   { list: 'Back END Developer' },
+   { list: 'QUALITY ASSURANCE' },
+   { list: 'UI/UX DESIGN' },
+]
+
+export const viewCertifications = [
+   {
+      frontend: {
+         title: 'FrontEnd Certification',
+         description1: {
+            icon: window,
+            des: 'This program equips you with the essential skills and knowledge to create visually appealing websites or applications.'
+         },
+         description2: {
+            icon: copy,
+            des: 'Evaluates your proficiency in frontend programming languages and other relevant frontend technologies.'
+         },
+         description3: {
+            icon: users,
+            des: 'Gain recognition as a qualified frontend developer, enhance your career prospects, and open doors to exciting job opportunities.'
+         }
+      }
    }
 ]

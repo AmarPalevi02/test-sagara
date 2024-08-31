@@ -30,7 +30,6 @@ const Certification = () => {
                            <h1 className='text-lg font-semibold text-secondary'>{item.hastag}</h1>
                            <h1 className='text-lg font-semibold'>{item.title}</h1>
                         </div>
-
                         <div className="text-start">
                            <p className='text-start text-sm text-secondary-dark line-clamp-2'>{item.des}</p>
                         </div>

@@ -34,3 +34,10 @@ body {
   border-radius: 10px;
   margin-bottom: 11px;
 }
+
+.dashborder {
+  width: 1px;
+  height: 100px;
+  border: 2px dashed black;
+  border-radius: 10px;
+}

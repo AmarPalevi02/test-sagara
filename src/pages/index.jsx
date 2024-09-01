@@ -5,10 +5,11 @@ import About from '../components/About/About'
 import DescriptionAbout from '../components/About/DescriptionAbout'
 import Certification from '../components/Certification'
 import ListCertification from '../components/ListCertification'
+import Footer from '../components/Footer'
 
 const LandingPage = () => {
    return (
-      <div>
+      <div className='min-h-screen'>
          <Navbar />
          <div className="mt-16">
             <Hero />
@@ -16,6 +17,9 @@ const LandingPage = () => {
             <DescriptionAbout />
             <Certification />
             <ListCertification />
+            <div className=''>
+               <Footer />
+            </div>
          </div>
       </div>
    )

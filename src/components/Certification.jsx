@@ -4,9 +4,9 @@ import { register } from '../assets'
 
 const Certification = () => {
    return (
-      <div className=' md:px-32 md:gap-14'>
+      <div id='itcertification' className='md:px-32 md:gap-14 md:mt-28 '>
          <div className="text-center mt-12 mb-5">
-            <h1 className='font-semibold text-xl text-secondary'>How Sagara</h1>
+            <h1 className='flex flex-col justify-center items-center text-center font-semibold text-xl text-secondary bordder-secound '>How Sagara</h1>
             <h1 className='font-bold text-2xl text-secondary'>IT-Certification Works</h1>
          </div>
          <div className='flex flex-col justify-center items-center md:flex-row-reverse'>

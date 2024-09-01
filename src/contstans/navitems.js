@@ -1,6 +1,6 @@
 export const navItems = [
    {
-      path: '#itcertification',
+      path: 'itcertification',
       name: 'IT CERTIFICATION'
    },
    {

@@ -14,6 +14,7 @@ import graduation from './graduation.svg'
 import window from './window.svg'
 import copy from './copy.svg'
 import users from './users.svg'
+import logoFooter from './logoFooter.svg'
 
 export {
    logo,
@@ -31,5 +32,6 @@ export {
    graduation,
    window,
    copy,
-   users
+   users,
+   logoFooter
 }

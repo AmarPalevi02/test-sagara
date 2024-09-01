@@ -8,6 +8,10 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 .sidebar {
   -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -44,4 +48,15 @@ body {
 
 .scroll-hidden::-webkit-scrollbar {
   display: none;
+}
+
+.bordder-secound::before {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: #A51535;
+  border-radius: 10px;
+  margin-bottom: 11px;
+  margin-bottom: 40px;
 }

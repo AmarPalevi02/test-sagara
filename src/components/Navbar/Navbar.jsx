@@ -25,7 +25,7 @@ const Navbar = () => {
                            className={`${active === item.name ? "text-secondary" : "text-secondary-dark"} font-semibold `}
                            onClick={() => setActive(item.name)}
                         >
-                           <a href={`${item.path}`}>{item.name}</a>
+                           <a href={`#${item.path}`}>{item.name}</a>
                         </li>
                      ))}
                   </ul>
